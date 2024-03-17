@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "swiftuijoystick",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/michael94ellis/SwiftUIJoystick",
+      "state" : {
+        "branch" : "main",
+        "revision" : "5aa003b25d8e3824701693cd24f16da54c71e6a6"
+      }
+    }
+  ],
+  "version" : 2
+}

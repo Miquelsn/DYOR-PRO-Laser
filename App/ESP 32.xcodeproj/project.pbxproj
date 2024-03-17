@@ -1,0 +1,860 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1111DB8628673CC900177198 /* Distancia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1111DB8528673CC900177198 /* Distancia.swift */; };
+		1111DB892867531200177198 /* Acelerometro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1111DB882867531200177198 /* Acelerometro.swift */; };
+		1111DB8D2867570E00177198 /* Acelerometro datos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1111DB8C2867570E00177198 /* Acelerometro datos.swift */; };
+		1140B29D2867600300950EA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11A961A52866E8EC000C6592 /* Assets.xcassets */; };
+		11530B6A284628C500C82B3C /* Matriz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11530B69284628C500C82B3C /* Matriz.swift */; };
+		1168EF262846A2F400FF3A32 /* Acelerometro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1168EF252846A2F400FF3A32 /* Acelerometro.swift */; };
+		11A961952866E8EB000C6592 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11A961942866E8EB000C6592 /* Assets.xcassets */; };
+		11A9619B2866E8EB000C6592 /* ESP 32 Watch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 11A9619A2866E8EB000C6592 /* ESP 32 Watch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		11A961A02866E8EB000C6592 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A9619F2866E8EB000C6592 /* MainView.swift */; };
+		11A961A22866E8EB000C6592 /* ESP_32App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A961A12866E8EB000C6592 /* ESP_32App.swift */; };
+		11A961A62866E8EC000C6592 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11A961A52866E8EC000C6592 /* Assets.xcassets */; };
+		11A961A92866E8EC000C6592 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11A961A82866E8EC000C6592 /* Preview Assets.xcassets */; };
+		11A961AD2866E8EC000C6592 /* ESP 32 Watch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 11A961922866E8EA000C6592 /* ESP 32 Watch.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		11C6F608283FDC4F006660DF /* SwiftUIJoystick in Frameworks */ = {isa = PBXBuildFile; productRef = 11C6F607283FDC4F006660DF /* SwiftUIJoystick */; };
+		11D3B93D283CCF0D007380F4 /* Histograma.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D3B93C283CCF0D007380F4 /* Histograma.swift */; };
+		11D3B93F283E848E007380F4 /* MostrarMensaje.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D3B93E283E848E007380F4 /* MostrarMensaje.swift */; };
+		11D9F7AB2866EA28008ABC95 /* ESP32Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E256BE2826BE090056636E /* ESP32Manager.swift */; };
+		11D9F7B12866EB50008ABC95 /* SwiftUIJoystick in Frameworks */ = {isa = PBXBuildFile; productRef = 11D9F7B02866EB50008ABC95 /* SwiftUIJoystick */; };
+		11D9F7B42866EB75008ABC95 /* SwiftUIJoystick in Frameworks */ = {isa = PBXBuildFile; productRef = 11D9F7B32866EB75008ABC95 /* SwiftUIJoystick */; };
+		11D9F7B82866EF14008ABC95 /* JoystickView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D9F7B72866EF14008ABC95 /* JoystickView.swift */; };
+		11D9F7BA2866F3B9008ABC95 /* JoystickWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D9F7B92866F3B9008ABC95 /* JoystickWatch.swift */; };
+		11D9F7BC2866F74D008ABC95 /* ConfigurationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D9F7BB2866F74D008ABC95 /* ConfigurationView.swift */; };
+		11E256B12826BDE20056636E /* ESP_32App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E256B02826BDE20056636E /* ESP_32App.swift */; };
+		11E256B32826BDE20056636E /* ConfigurationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E256B22826BDE20056636E /* ConfigurationView.swift */; };
+		11E256B52826BDE30056636E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11E256B42826BDE30056636E /* Assets.xcassets */; };
+		11E256B82826BDE30056636E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11E256B72826BDE30056636E /* Preview Assets.xcassets */; };
+		11E256BF2826BE090056636E /* ESP32Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E256BE2826BE090056636E /* ESP32Manager.swift */; };
+		11E256C62826C58D0056636E /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E256C52826C58D0056636E /* MainView.swift */; };
+		11E256CB2826FD6C0056636E /* Joystick.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E256CA2826FD6C0056636E /* Joystick.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		11A9619C2866E8EB000C6592 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11E256A52826BDE20056636E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11A961992866E8EB000C6592;
+			remoteInfo = "ESP 32 Watch WatchKit Extension";
+		};
+		11A961AB2866E8EC000C6592 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11E256A52826BDE20056636E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11A961912866E8EA000C6592;
+			remoteInfo = "ESP 32 Watch";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		11A961AE2866E8EC000C6592 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				11A961AD2866E8EC000C6592 /* ESP 32 Watch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11A961B12866E8EC000C6592 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				11A9619B2866E8EB000C6592 /* ESP 32 Watch WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1111DB8528673CC900177198 /* Distancia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Distancia.swift; sourceTree = "<group>"; };
+		1111DB882867531200177198 /* Acelerometro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Acelerometro.swift; sourceTree = "<group>"; };
+		1111DB8C2867570E00177198 /* Acelerometro datos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Acelerometro datos.swift"; sourceTree = "<group>"; };
+		11530B69284628C500C82B3C /* Matriz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Matriz.swift; sourceTree = "<group>"; };
+		1168EF252846A2F400FF3A32 /* Acelerometro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Acelerometro.swift; sourceTree = "<group>"; };
+		11A961922866E8EA000C6592 /* ESP 32 Watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ESP 32 Watch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11A961942866E8EB000C6592 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		11A9619A2866E8EB000C6592 /* ESP 32 Watch WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ESP 32 Watch WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11A9619F2866E8EB000C6592 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		11A961A12866E8EB000C6592 /* ESP_32App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESP_32App.swift; sourceTree = "<group>"; };
+		11A961A52866E8EC000C6592 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		11A961A82866E8EC000C6592 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		11A961AA2866E8EC000C6592 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11D3B93C283CCF0D007380F4 /* Histograma.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Histograma.swift; sourceTree = "<group>"; };
+		11D3B93E283E848E007380F4 /* MostrarMensaje.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MostrarMensaje.swift; sourceTree = "<group>"; };
+		11D9F7B72866EF14008ABC95 /* JoystickView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoystickView.swift; sourceTree = "<group>"; };
+		11D9F7B92866F3B9008ABC95 /* JoystickWatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoystickWatch.swift; sourceTree = "<group>"; };
+		11D9F7BB2866F74D008ABC95 /* ConfigurationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurationView.swift; sourceTree = "<group>"; };
+		11E256AD2826BDE20056636E /* ESP 32.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ESP 32.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11E256B02826BDE20056636E /* ESP_32App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESP_32App.swift; sourceTree = "<group>"; };
+		11E256B22826BDE20056636E /* ConfigurationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurationView.swift; sourceTree = "<group>"; };
+		11E256B42826BDE30056636E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		11E256B72826BDE30056636E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		11E256BE2826BE090056636E /* ESP32Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESP32Manager.swift; sourceTree = "<group>"; };
+		11E256C02826C0C10056636E /* ESP-32-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "ESP-32-Info.plist"; sourceTree = SOURCE_ROOT; };
+		11E256C52826C58D0056636E /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		11E256CA2826FD6C0056636E /* Joystick.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Joystick.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11A961972866E8EB000C6592 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11D9F7B42866EB75008ABC95 /* SwiftUIJoystick in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11E256AA2826BDE20056636E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11D9F7B12866EB50008ABC95 /* SwiftUIJoystick in Frameworks */,
+				11C6F608283FDC4F006660DF /* SwiftUIJoystick in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1140B29828675E5C00950EA4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				11D9F7BB2866F74D008ABC95 /* ConfigurationView.swift */,
+				11D9F7B72866EF14008ABC95 /* JoystickView.swift */,
+				1111DB8528673CC900177198 /* Distancia.swift */,
+				1111DB882867531200177198 /* Acelerometro.swift */,
+				11A9619F2866E8EB000C6592 /* MainView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1140B29928675E7900950EA4 /* Datos */ = {
+			isa = PBXGroup;
+			children = (
+				11D9F7B92866F3B9008ABC95 /* JoystickWatch.swift */,
+				1111DB8C2867570E00177198 /* Acelerometro datos.swift */,
+			);
+			path = Datos;
+			sourceTree = "<group>";
+		};
+		11A961932866E8EA000C6592 /* ESP 32 Watch */ = {
+			isa = PBXGroup;
+			children = (
+				11A961942866E8EB000C6592 /* Assets.xcassets */,
+			);
+			path = "ESP 32 Watch";
+			sourceTree = "<group>";
+		};
+		11A9619E2866E8EB000C6592 /* ESP 32 Watch WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1140B29928675E7900950EA4 /* Datos */,
+				11A961A12866E8EB000C6592 /* ESP_32App.swift */,
+				1140B29828675E5C00950EA4 /* View */,
+				11A961A52866E8EC000C6592 /* Assets.xcassets */,
+				11A961AA2866E8EC000C6592 /* Info.plist */,
+				11A961A72866E8EC000C6592 /* Preview Content */,
+			);
+			path = "ESP 32 Watch WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		11A961A72866E8EC000C6592 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				11A961A82866E8EC000C6592 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		11E256A42826BDE20056636E = {
+			isa = PBXGroup;
+			children = (
+				11E256AF2826BDE20056636E /* ESP 32 */,
+				11A961932866E8EA000C6592 /* ESP 32 Watch */,
+				11A9619E2866E8EB000C6592 /* ESP 32 Watch WatchKit Extension */,
+				11E256AE2826BDE20056636E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		11E256AE2826BDE20056636E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11E256AD2826BDE20056636E /* ESP 32.app */,
+				11A961922866E8EA000C6592 /* ESP 32 Watch.app */,
+				11A9619A2866E8EB000C6592 /* ESP 32 Watch WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11E256AF2826BDE20056636E /* ESP 32 */ = {
+			isa = PBXGroup;
+			children = (
+				11E256C42826C5050056636E /* Models */,
+				11E256C32826C4F90056636E /* View */,
+				11E256C02826C0C10056636E /* ESP-32-Info.plist */,
+				11E256B02826BDE20056636E /* ESP_32App.swift */,
+				11E256B42826BDE30056636E /* Assets.xcassets */,
+				11E256B62826BDE30056636E /* Preview Content */,
+			);
+			path = "ESP 32";
+			sourceTree = "<group>";
+		};
+		11E256B62826BDE30056636E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				11E256B72826BDE30056636E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		11E256C32826C4F90056636E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				11D3B93E283E848E007380F4 /* MostrarMensaje.swift */,
+				11530B69284628C500C82B3C /* Matriz.swift */,
+				11E256B22826BDE20056636E /* ConfigurationView.swift */,
+				11E256C52826C58D0056636E /* MainView.swift */,
+				11D3B93C283CCF0D007380F4 /* Histograma.swift */,
+				11E256CA2826FD6C0056636E /* Joystick.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		11E256C42826C5050056636E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1168EF252846A2F400FF3A32 /* Acelerometro.swift */,
+				11E256BE2826BE090056636E /* ESP32Manager.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11A961912866E8EA000C6592 /* ESP 32 Watch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11A961B52866E8EC000C6592 /* Build configuration list for PBXNativeTarget "ESP 32 Watch" */;
+			buildPhases = (
+				11A961902866E8EA000C6592 /* Resources */,
+				11A961B12866E8EC000C6592 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11A9619D2866E8EB000C6592 /* PBXTargetDependency */,
+			);
+			name = "ESP 32 Watch";
+			packageProductDependencies = (
+				11D9F7B62866EE95008ABC95 /* SwiftUIJoystick */,
+			);
+			productName = "ESP 32 Watch";
+			productReference = 11A961922866E8EA000C6592 /* ESP 32 Watch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		11A961992866E8EB000C6592 /* ESP 32 Watch WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11A961B42866E8EC000C6592 /* Build configuration list for PBXNativeTarget "ESP 32 Watch WatchKit Extension" */;
+			buildPhases = (
+				11A961962866E8EB000C6592 /* Sources */,
+				11A961972866E8EB000C6592 /* Frameworks */,
+				11A961982866E8EB000C6592 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ESP 32 Watch WatchKit Extension";
+			packageProductDependencies = (
+				11D9F7B32866EB75008ABC95 /* SwiftUIJoystick */,
+			);
+			productName = "ESP 32 Watch WatchKit Extension";
+			productReference = 11A9619A2866E8EB000C6592 /* ESP 32 Watch WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		11E256AC2826BDE20056636E /* ESP 32 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11E256BB2826BDE30056636E /* Build configuration list for PBXNativeTarget "ESP 32" */;
+			buildPhases = (
+				11E256A92826BDE20056636E /* Sources */,
+				11E256AA2826BDE20056636E /* Frameworks */,
+				11E256AB2826BDE20056636E /* Resources */,
+				11A961AE2866E8EC000C6592 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11A961AC2866E8EC000C6592 /* PBXTargetDependency */,
+			);
+			name = "ESP 32";
+			packageProductDependencies = (
+				11C6F607283FDC4F006660DF /* SwiftUIJoystick */,
+				11D9F7B02866EB50008ABC95 /* SwiftUIJoystick */,
+			);
+			productName = "ESP 32";
+			productReference = 11E256AD2826BDE20056636E /* ESP 32.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11E256A52826BDE20056636E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					11A961912866E8EA000C6592 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					11A961992866E8EB000C6592 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					11E256AC2826BDE20056636E = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 11E256A82826BDE20056636E /* Build configuration list for PBXProject "ESP 32" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 11E256A42826BDE20056636E;
+			packageReferences = (
+				11E256C72826FD450056636E /* XCRemoteSwiftPackageReference "SwiftUIJoystick" */,
+				11C6F606283FDC4F006660DF /* XCRemoteSwiftPackageReference "SwiftUIJoystick" */,
+				11D9F7AF2866EB50008ABC95 /* XCRemoteSwiftPackageReference "SwiftUIJoystick" */,
+				11D9F7B22866EB75008ABC95 /* XCRemoteSwiftPackageReference "SwiftUIJoystick" */,
+				11D9F7B52866EE95008ABC95 /* XCRemoteSwiftPackageReference "SwiftUIJoystick" */,
+			);
+			productRefGroup = 11E256AE2826BDE20056636E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11E256AC2826BDE20056636E /* ESP 32 */,
+				11A961912866E8EA000C6592 /* ESP 32 Watch */,
+				11A961992866E8EB000C6592 /* ESP 32 Watch WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11A961902866E8EA000C6592 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1140B29D2867600300950EA4 /* Assets.xcassets in Resources */,
+				11A961952866E8EB000C6592 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11A961982866E8EB000C6592 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11A961A92866E8EC000C6592 /* Preview Assets.xcassets in Resources */,
+				11A961A62866E8EC000C6592 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11E256AB2826BDE20056636E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11E256B82826BDE30056636E /* Preview Assets.xcassets in Resources */,
+				11E256B52826BDE30056636E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11A961962866E8EB000C6592 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11A961A02866E8EB000C6592 /* MainView.swift in Sources */,
+				1111DB892867531200177198 /* Acelerometro.swift in Sources */,
+				11D9F7BC2866F74D008ABC95 /* ConfigurationView.swift in Sources */,
+				1111DB8D2867570E00177198 /* Acelerometro datos.swift in Sources */,
+				1111DB8628673CC900177198 /* Distancia.swift in Sources */,
+				11D9F7AB2866EA28008ABC95 /* ESP32Manager.swift in Sources */,
+				11D9F7BA2866F3B9008ABC95 /* JoystickWatch.swift in Sources */,
+				11D9F7B82866EF14008ABC95 /* JoystickView.swift in Sources */,
+				11A961A22866E8EB000C6592 /* ESP_32App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11E256A92826BDE20056636E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11E256B32826BDE20056636E /* ConfigurationView.swift in Sources */,
+				11E256C62826C58D0056636E /* MainView.swift in Sources */,
+				11E256B12826BDE20056636E /* ESP_32App.swift in Sources */,
+				1168EF262846A2F400FF3A32 /* Acelerometro.swift in Sources */,
+				11E256BF2826BE090056636E /* ESP32Manager.swift in Sources */,
+				11D3B93D283CCF0D007380F4 /* Histograma.swift in Sources */,
+				11E256CB2826FD6C0056636E /* Joystick.swift in Sources */,
+				11530B6A284628C500C82B3C /* Matriz.swift in Sources */,
+				11D3B93F283E848E007380F4 /* MostrarMensaje.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		11A9619D2866E8EB000C6592 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11A961992866E8EB000C6592 /* ESP 32 Watch WatchKit Extension */;
+			targetProxy = 11A9619C2866E8EB000C6592 /* PBXContainerItemProxy */;
+		};
+		11A961AC2866E8EC000C6592 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11A961912866E8EA000C6592 /* ESP 32 Watch */;
+			targetProxy = 11A961AB2866E8EC000C6592 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		11A961AF2866E8EC000C6592 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5JV69ZFN5A;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = ESP_32_Watch_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "ESP 32 Watch";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Permite bluetooth siempre encendido";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "Permite usar el bluetooth";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "Comunicarse con wifi";
+				INFOPLIST_KEY_NSMotionUsageDescription = "Core Motion data";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "msn.ESP-32";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "msn.ESP-32.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		11A961B02866E8EC000C6592 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5JV69ZFN5A;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = ESP_32_Watch_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "ESP 32 Watch";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Permite bluetooth siempre encendido";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "Permite usar el bluetooth";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "Comunicarse con wifi";
+				INFOPLIST_KEY_NSMotionUsageDescription = "Core Motion data";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "msn.ESP-32";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "msn.ESP-32.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		11A961B22866E8EC000C6592 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ESP 32 Watch WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 5JV69ZFN5A;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ESP 32 Watch WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "ESP 32 Watch WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = ESP_32_Watch_WatchKit_Extension.ComplicationController;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Para poder conectarse con el esp32";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "Para conectarse";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "Para comunicarse";
+				INFOPLIST_KEY_NSMotionUsageDescription = "Usar el reloj para inclinar";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "msn.ESP-32.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		11A961B32866E8EC000C6592 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ESP 32 Watch WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 5JV69ZFN5A;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ESP 32 Watch WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "ESP 32 Watch WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = ESP_32_Watch_WatchKit_Extension.ComplicationController;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Para poder conectarse con el esp32";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "Para conectarse";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "Para comunicarse";
+				INFOPLIST_KEY_NSMotionUsageDescription = "Usar el reloj para inclinar";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "msn.ESP-32.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		11E256B92826BDE30056636E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		11E256BA2826BDE30056636E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		11E256BC2826BDE30056636E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ESP 32/Preview Content\"";
+				DEVELOPMENT_TEAM = 5JV69ZFN5A;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ESP-32-Info.plist";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Permite usar el bluetooth para conectar al esp 32";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "Permite usar el bluetooth para perifericos";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "msn.ESP-32";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		11E256BD2826BDE30056636E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ESP 32/Preview Content\"";
+				DEVELOPMENT_TEAM = 5JV69ZFN5A;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ESP-32-Info.plist";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Permite usar el bluetooth para conectar al esp 32";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "Permite usar el bluetooth para perifericos";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "msn.ESP-32";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11A961B42866E8EC000C6592 /* Build configuration list for PBXNativeTarget "ESP 32 Watch WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11A961B22866E8EC000C6592 /* Debug */,
+				11A961B32866E8EC000C6592 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11A961B52866E8EC000C6592 /* Build configuration list for PBXNativeTarget "ESP 32 Watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11A961AF2866E8EC000C6592 /* Debug */,
+				11A961B02866E8EC000C6592 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11E256A82826BDE20056636E /* Build configuration list for PBXProject "ESP 32" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11E256B92826BDE30056636E /* Debug */,
+				11E256BA2826BDE30056636E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11E256BB2826BDE30056636E /* Build configuration list for PBXNativeTarget "ESP 32" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11E256BC2826BDE30056636E /* Debug */,
+				11E256BD2826BDE30056636E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		11C6F606283FDC4F006660DF /* XCRemoteSwiftPackageReference "SwiftUIJoystick" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/michael94ellis/SwiftUIJoystick";
+			requirement = {
+				kind = exactVersion;
+				version = 1.5.0;
+			};
+		};
+		11D9F7AF2866EB50008ABC95 /* XCRemoteSwiftPackageReference "SwiftUIJoystick" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/michael94ellis/SwiftUIJoystick";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		11D9F7B22866EB75008ABC95 /* XCRemoteSwiftPackageReference "SwiftUIJoystick" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/michael94ellis/SwiftUIJoystick";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		11D9F7B52866EE95008ABC95 /* XCRemoteSwiftPackageReference "SwiftUIJoystick" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/michael94ellis/SwiftUIJoystick";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		11E256C72826FD450056636E /* XCRemoteSwiftPackageReference "SwiftUIJoystick" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/michael94ellis/SwiftUIJoystick";
+			requirement = {
+				kind = exactVersion;
+				version = 1.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		11C6F607283FDC4F006660DF /* SwiftUIJoystick */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 11E256C72826FD450056636E /* XCRemoteSwiftPackageReference "SwiftUIJoystick" */;
+			productName = SwiftUIJoystick;
+		};
+		11D9F7B02866EB50008ABC95 /* SwiftUIJoystick */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 11D9F7AF2866EB50008ABC95 /* XCRemoteSwiftPackageReference "SwiftUIJoystick" */;
+			productName = SwiftUIJoystick;
+		};
+		11D9F7B32866EB75008ABC95 /* SwiftUIJoystick */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 11D9F7AF2866EB50008ABC95 /* XCRemoteSwiftPackageReference "SwiftUIJoystick" */;
+			productName = SwiftUIJoystick;
+		};
+		11D9F7B62866EE95008ABC95 /* SwiftUIJoystick */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 11D9F7AF2866EB50008ABC95 /* XCRemoteSwiftPackageReference "SwiftUIJoystick" */;
+			productName = SwiftUIJoystick;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 11E256A52826BDE20056636E /* Project object */;
+}
