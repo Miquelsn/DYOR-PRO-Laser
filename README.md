@@ -1,7 +1,8 @@
 # DYOR-PRO-Laser
 
-This project provides the code used to build the DYOR PRO Laser robot. It includes the Arduino code used for the ESP32 and the Swift code used for the iOS and WatchOS apps.
+This project was completed as the final work of the Mobile Robotics course in the third year of the Electronic Industrial and Automatic Engineering degree at UPV.
 
+The repository contains the code utilized in the DYOR PRO Laser robot, comprising the Arduino code for the ESP32 and the Swift code for the iOS and WatchOS applications.
 
 More information: https://dyor.webs.upv.es/dyor-pro-laser/
 
